@@ -585,3 +585,8 @@ eval "$(zoxide init bash)"
 [[ $- == *i* ]] && source $HOME/.local/share/blesh/ble.sh --attach=none
 # Add the following line at the end of ~/.bashrc
 [[ ${BLE_VERSION-} ]] && ble-attach
+
+ln -s /usr/local/bin/obmenu-generator $HOME/.local/bin/obmenu-generator
+ln -s /usr/local/bin/fbmenugen $HOME/.local/bin/fbmenugen
+ln -s /usr/local/bin/zoxide $HOME/.local/bin/zoxide
+ln -s /usr/local/bin/chezmoi $HOME/.local/bin/chezmoi
