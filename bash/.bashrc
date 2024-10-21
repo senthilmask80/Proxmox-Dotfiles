@@ -75,6 +75,7 @@ On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
 
 iatest=$(expr index "$-" i)
+xdg-user-dirs-update
 
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
@@ -586,7 +587,3 @@ eval "$(zoxide init bash)"
 # Add the following line at the end of ~/.bashrc
 [[ ${BLE_VERSION-} ]] && ble-attach
 
-ln -s /usr/local/bin/obmenu-generator $HOME/.local/bin/obmenu-generator
-ln -s /usr/local/bin/fbmenugen $HOME/.local/bin/fbmenugen
-ln -s /usr/local/bin/zoxide $HOME/.local/bin/zoxide
-ln -s /usr/local/bin/chezmoi $HOME/.local/bin/chezmoi
