@@ -1,5 +1,6 @@
 # Packages here will be installed without recommends.
-
+accountsservice
+adwaita-icon-theme
 #alsa-base
 alsa-ucm-conf
 alsa-utils
@@ -18,6 +19,7 @@ autoconf
 bash-completion
 btrfs-progs
 build-essential
+breeze-icon-theme
 #bzip2 #dep
 ca-certificates
 catfish
@@ -35,10 +37,12 @@ dbus-x11
 dmidecode
 dmz-cursor-theme
 dosfstools
-efibootmgr
-eject
+dunst
+#efibootmgr
+#eject
 enchant-2
 evince
+exa
 exfatprogs
 f2fs-tools
 #fdpowermon
@@ -56,6 +60,11 @@ firmware-realtek
 firmware-sof-signed
 fonts-cantarell
 fontconfig
+fonts-recommended
+fonts-font-awesome
+fonts-terminus
+fonts-dejavu-core
+fonts-liberation
 fonts-noto
 fonts-noto-cjk
 fonts-noto-mono
@@ -70,7 +79,9 @@ galternatives
 gddrescue
 gdebi
 geany
-#geany-plugins
+geany-plugins
+geany-plugin-addons
+geany-plugin-spellcheck
 ghostscript
 gigolo
 gmrun
@@ -93,6 +104,7 @@ gvfs
 gvfs-backends
 #gvfs-bin
 gvfs-fuse
+kitty
 hardinfo
 #haveged
 hdparm
@@ -102,6 +114,7 @@ hfsprogs
 htop
 hwdata
 i965-va-driver
+imagemagick
 inotify-tools
 intel-microcode
 inxi
@@ -110,6 +123,7 @@ jgmenu
 jq
 lame
 less
+libaccountsservice0
 libblockdev-crypto2
 libglib2.0-bin
 libgtk-3-0
@@ -150,6 +164,7 @@ network-manager-gnome
 #network-manager-pptp-gnome
 #network-manager-vpnc-gnome
 nitrogen
+numlockx
 ntfs-3g
 #ntp
 obconf
@@ -165,6 +180,7 @@ pnmixer
 policykit-1-gnome
 polkitd
 polkitd-pkla
+polybar
 pulseaudio
 python3
 python3-xdg
@@ -173,6 +189,11 @@ qt5-gtk-platformtheme
 #reiser4progs
 #reiserfsprogs
 redshift
+remmina
+remmina-common
+remmina-plugin-exec
+remmina-plugin-rdp
+remmina-plugin-vnc
 rfkill
 ristretto
 rofi
@@ -224,6 +245,7 @@ xbindkeys
 #xbindkeys-config
 xcape
 xcompmgr
+xclip
 xdg-user-dirs
 xdg-utils
 xdotool
