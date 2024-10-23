@@ -14,7 +14,7 @@ if check_directory "$HOME/.local/share/icons/Colloid-Dark"; then
     echo "Colloid-icon-theme is already installed."
 else
     echo "Installing Colloid-icon-theme..."
-    cd ~/Downloads || exit
+    cd /tmp/ || exit
     if [ -d "Colloid-icon-theme" ]; then
         echo "Colloid-icon-theme repository already cloned. Skipping clone step."
     else
@@ -22,7 +22,7 @@ else
     fi
     cd Colloid-icon-theme || exit
     ./install.sh -t default -s default
-    rm -rf ~/Downloads/Colloid-icon-theme/
+    rm -rf /tmp/Colloid-icon-theme/
 fi
 
 # Check if Colloid-gtk-theme is installed
@@ -30,7 +30,7 @@ if check_directory "$HOME/.themes/Colloid-Dark"; then
     echo "Colloid-gtk-theme is already installed."
 else
     echo "Installing Colloid-gtk-theme..."
-    cd ~/Downloads || exit
+    cd /tmp/ || exit
     if [ -d "Colloid-gtk-theme" ]; then
         echo "Colloid-gtk-theme repository already cloned. Skipping clone step."
     else
@@ -38,8 +38,8 @@ else
     fi
     cd Colloid-gtk-theme || exit
     yes | ./install.sh -c dark -t default --tweaks black
-    rm -rf ~/Downloads/Colloid-gtk-theme
+    rm -rf /tmp/Colloid-gtk-theme
 fi
 
 
-bash ~/bookworm-scripts/colorschemes/update_gtk_settings.sh
+bash /opt/ProDot/Scripts/update_gtk_settings.sh
