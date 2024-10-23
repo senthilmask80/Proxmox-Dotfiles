@@ -125,6 +125,7 @@ lame
 less
 libaccountsservice0
 libblockdev-crypto2
+libfuse2
 libglib2.0-bin
 libgtk-3-0
 libinput-tools
@@ -199,6 +200,7 @@ ristretto
 rofi
 rpl
 rsync
+rxvt-unicode
 rzip
 scrot
 sensible-utils
@@ -243,6 +245,7 @@ wireless-tools
 wpasupplicant
 xbindkeys
 #xbindkeys-config
+xauth
 xcape
 xcompmgr
 xclip
@@ -275,6 +278,7 @@ xserver-xorg-video-qxl
 xserver-xephyr
 xsettingsd
 xz-utils
+x11-xserver-utils
 yad
 zip
 zstd
