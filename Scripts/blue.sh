@@ -42,4 +42,4 @@ else
 fi
 
 
-bash /opt/ProDot/Scripts/update_gtk_settings.sh
+bash /opt/Promox-Dotfiles/Scripts/update_gtk_settings.sh
