@@ -30,6 +30,7 @@ cpufrequtils
 cryptsetup
 cryptsetup-initramfs
 curl
+compton
 dialog
 dillo
 dbus-user-session
