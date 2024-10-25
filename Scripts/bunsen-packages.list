@@ -32,10 +32,11 @@ cryptsetup
 cryptsetup-initramfs
 curl
 compton
-dialog
-dillo
 dbus-user-session
 dbus-x11
+desktop-base
+dialog
+dillo
 dmidecode
 dmz-cursor-theme
 dosfstools
